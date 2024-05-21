@@ -48,11 +48,45 @@ button:hover {
     padding: 60px 10px 40px 10px;
 }
 
-.rodape-div > div {
+.rodape-div {
     flex: 1;
     padding: 10px;
 }
-
+.rodape-div-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: row;
+    padding: 60px 10px 40px 10px;
+}
+.rodape-div-2 {
+    flex: 1;
+    padding: 10px;
+}
+.rodape-div-3-coluna{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: row;
+    padding: 60px 10px 40px 10px;
+}
+.rodape-div-3-coluna {
+    flex: 1;
+    padding: 10px;
+}
+.rodape-div-coluna{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: row;
+    padding: 60px 10px 40px 10px;
+}
+.rodape-div-coluna {
+    flex: 1;
+    padding: 10px;
+}
+.rodape-div-1,.rodape-div-2, .rodape-div-3-coluna, .rodape-div-4-coluna
+{
+    width: calc(50% - 20%);
+    padding: 10px;
+}
 .rodape span {
     font-size: 20px;
 }
@@ -66,11 +100,11 @@ button:hover {
 
 /* Mobile */
 @media (max-width: 768px) {
-    .rodape-div {
-        padding: 60px 0 40px 0;
+    .rodape-div-1,.rodape-div-2, .rodape-div-3, .rodape-div-4{
+        width: calc(50% - 20%);
+        padding: 10px;
     }
-
-    .rodape-div > div {
+    .rodape-div {
         flex-basis: 50%;
     }
 }
