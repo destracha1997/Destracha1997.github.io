@@ -44,7 +44,7 @@ button:hover {
 .rodape-div {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: row;
     padding: 60px 10px 40px 10px;
 }
 
