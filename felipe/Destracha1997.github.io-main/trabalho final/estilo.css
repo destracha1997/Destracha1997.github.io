@@ -19,43 +19,42 @@ button {
 button:hover {
     background-color: #005b36;
 }
-.rodape{
+.rodape {
     background-color: #f36e20;
     color: white;
-    height: 100%;
-    font-size:14px;
+    font-size: 14px;
     font-family: helvetica;
 }
-.rodape a{
+
+.rodape a {
     text-decoration: none;
-    color:white;
+    color: white;
 }
-.rodape p{
+
+.rodape p {
     margin-bottom: 5px;
 }
-.rodape-div{
+
+.rodape-div {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
-    margin: auto;
-    align-items: stretch;
     padding: 60px 10px 40px 10px;
 }
-.rodape-div-1,.rodape-div-2, .roadpe-div-3, .rodape-div-4{
-    display:flex;
-    width: calc(100% / 4 - 20px);
+
+.rodape-div > div {
+    flex: 1;
     padding: 10px;
 }
-.rodape span{
+
+.rodape span {
     font-size: 20px;
-    color:white;
 }
-.rodape-direitos{
-    width: calc(100% - 20px);
+
+.rodape-direitos {
     background-color: black;
+    color: white;
     padding: 10px;
-    margin: 0px;
-    text-align: center;
+    margin: 0;
 }
 /*mobile*/
 @media (max-width:768px){
